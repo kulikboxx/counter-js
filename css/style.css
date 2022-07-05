@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 200vh;
+  color: #161922;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f3f3f3;
+}
+
+h1 {
+  margin: 50vh 0;
+  font-size: 8rem;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.counters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.counters .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  gap: 20px;
+  padding: 3rem 2rem;
+  border-right: 1px dashed #0089f7;
+}
+
+.counters .counter:first-of-type {
+  border-left: 1px dashed #0089f7;
+}
+
+.counters .counter span:nth-of-type(1) {
+  color: #0089f7;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.counters .counter__title {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
